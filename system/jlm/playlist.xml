@@ -18,11 +18,6 @@
 				<impl>hotspot</impl>
 				<platform>arm_linux|aarch64_linux</platform>
 			</disable>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
 		</disables>
 		<variations>
 			<variation>Mode150</variation>
@@ -42,13 +37,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestJlmRemoteClassAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
@@ -72,11 +60,6 @@
 				<version>8</version>
 				<impl>hotspot</impl>
 				<platform>arm_linux</platform>
-			</disable>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
 			</disable>
 		</disables>
 		<variations>
@@ -108,11 +91,6 @@
 				<version>11+</version>
 				<impl>hotspot</impl>
 				<platform>arm_linux|ppc64le_linux</platform>
-			</disable>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
 			</disable>
 		</disables>
 		<variations>
@@ -147,11 +125,6 @@
 				<impl>hotspot</impl>
 				<platform>arm_linux</platform>
 			</disable>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
 		</disables>
 		<variations>
 			<variation>Mode150</variation>
@@ -171,13 +144,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestJlmRemoteNotifierProxyAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
@@ -197,13 +163,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestJlmRemoteThreadAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
@@ -221,13 +180,6 @@
 	</test>
 	<test>
 		<testCaseName>TestJlmRemoteThreadNoAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
@@ -245,13 +197,6 @@
 	<!-- The following JLM tests are specific to OpenJDK-OpenJ9, they run tests from openj9.test.jlm project -->
 	<test>
 		<testCaseName>TestIBMJlmLocal</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -274,13 +219,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -306,13 +244,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassAuth_SE80</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -336,13 +267,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassAuth_SE80_Linux</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -367,13 +291,6 @@
 	<!--Exclude TestIBMJlmRemoteClassNoAuth from running on openjdk8-openj9 on ppc64le Linux. Reason: adoptium/aqa-systemtest/issues/145-->
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassNoAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -396,13 +313,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassNoAuth_SE80</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -426,13 +336,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteClassNoAuth_SE80_Linux</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -459,13 +362,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -491,13 +387,6 @@
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryAuth_SE80</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -521,13 +410,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryAuth_SE80_Linux</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -552,13 +434,6 @@
 	<!--Exclude TestIBMJlmRemoteMemoryNoAuth from running on openjdk8-openj9 on ppc64le Linux. Reason: adoptium/aqa-systemtest/issues/145-->
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryNoAuth</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -581,13 +456,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryNoAuth_SE80</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
@@ -611,13 +479,6 @@
 	</test>
 	<test>
 		<testCaseName>TestIBMJlmRemoteMemoryNoAuth_SE80_Linux</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode110</variation>
 			<variation>Mode610</variation>
