@@ -414,13 +414,6 @@
 	</test>
 	<test>
 		<testCaseName>HCRLateAttachWorkload</testCaseName>
-		<disables>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
-			</disable>
-		</disables>
 		<variations>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
@@ -455,11 +448,6 @@
 				<comment>https://github.com/adoptium/aqa-systemtest/issues/479</comment>
 				<impl>hotspot</impl>
 				<version>19+</version>
-			</disable>
-			<disable>
-				<comment>automation/issues/474</comment>
-				<impl>ibm</impl>
-				<version>8</version>
 			</disable>
 		</disables>
 		<variations>
